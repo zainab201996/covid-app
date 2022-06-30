@@ -8,6 +8,7 @@ NOTE: The /all API of COVID open API is not working. So, using the stats API I a
 The service uses a local postgres database connection to store countries data accordingly
 
 1. GET /refresh_data
+  
   Description:
   This endpoint updates the table records everytime it is hit.
   
@@ -15,6 +16,7 @@ The service uses a local postgres database connection to store countries data ac
   None
   
 2. GET /percentagesByCountry
+  
   Description:
   This endpoint gets the death and recovered percentage out of total cases reported for a country
   
@@ -23,6 +25,7 @@ The service uses a local postgres database connection to store countries data ac
   
   
 3. GET /top10
+
 Description:
 It gets the top 10 countries depending upon the number of cases of a specific type
 

@@ -1,11 +1,17 @@
 # covid-app
 RESTful API to fetch COVID stats and filter the countries on the basis of record type
 
-The app offers three type of endpoints
+Entry point of service -> index.js
+
+Script to run the service-> npm run start
+
+DB -> The service uses a local postgres database connection to store countries data accordingly
+
+The service offers three type of endpoints
 
 NOTE: The /all API of COVID open API is not working. So, using the stats API I added a basic functionality
 
-The service uses a local postgres database connection to store countries data accordingly
+
 
 1. GET /refresh_data
   
